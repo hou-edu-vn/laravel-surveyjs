@@ -23,13 +23,6 @@
                                     >
 
                                     </v-text-field>
-
-                                  <v-textarea
-                                      v-model="editedItem.description"
-                                      label="Survey description"
-                                  >
-
-                                  </v-textarea>
                                 </v-flex>
                             </v-layout>
                         </v-container>
@@ -113,8 +106,7 @@
                     }
                 ],
                 editedItem: {
-                  name: '',
-                  description: ''
+                  name: ''
                 },
 
             }
